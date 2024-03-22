@@ -1,0 +1,116 @@
+    body{
+        height: 100VH;
+        background-color: #004864;
+        background-image: linear-gradient(to bottom, #004864, #647FAC);
+        background-repeat: no-repeat;
+
+
+    }
+
+    .texth1{
+    font-size: 48px;
+     margin-bottom: 5px;
+    }
+
+    .texth2{
+        font-size: 25px;
+
+    }
+
+
+    .texth3{
+        font-size: 20px;
+
+           margin-top: 5px;
+    }
+    .border-warning {
+        padding: 10px;
+    }
+
+    .btn {
+
+        margin-top: 10px;
+    }
+
+    .middle-align{
+
+        margin-top: 20px;
+        height: 100%;
+        align-items: center;
+    }
+
+    .btn-purple{
+        width: 100px;
+        color: white;
+        background-color: #9B68DC;
+    }
+
+    .bg-purple{
+        background-color: #9B68DC;
+        color: white;
+    }
+
+    .bg-footer{
+       background-color:#030C59 ;
+    }
+
+    .bg-purple:hover{
+        background-color: #563385;
+        color: white;
+    }
+
+
+
+.btn-purple:hover{
+    background-color: #7b2ce2;
+    color: white;
+}
+
+.round-m{
+   border-radius: 10px;
+   width: 300px;
+}
+
+.navbar {
+    transition: background-color 0.1s ease;
+}
+
+.scrolled {
+    background-color: #004864;
+}
+.text-1{
+
+    font-size: 12px;
+}
+
+.text-2{
+    font-size: 20px;
+}
+
+.text-3{
+    font-size: 30px;
+}
+
+.text-lm{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.linety{
+    border: 2px solid #ffffff;
+    width: 20%;
+    margin: 0 auto;
+}
+.lineleft{
+    border: 2px solid #ffffff;
+    width: 40%;
+}
+
+.blue{
+    color: #004864;
+}
+
+.blueold{
+    color: #004864;
+    font-weight: bold;
+}
