@@ -203,6 +203,30 @@
 
    </div>
    {{-- endtrending --}}
+
+{{-- trending --}}
+<div class="container">
+    <div class="row mt-md-2">
+     <div class="col-md-8">
+         <h1 class="text-white">Lokasi</h1>
+         <hr class="lineleft">
+
+         <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15866.492132749388!2d106.80889595541996!3d-6.181182600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f442596e0c93%3A0x4ba58be40979fe36!2sPerpustakaan%20Nasional%20Republik%20Indonesia!5e0!3m2!1sid!2sid!4v1711280329772!5m2!1sid!2sid" width="1100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </p>
+
+
+     </div>
+
+    </div>
+
+
+</div>
+{{-- endtrending --}}
+
+
+
+
    @endsection
 
 

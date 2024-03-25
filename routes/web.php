@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BukuController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +21,8 @@ use App\Http\Controllers\HomeController;
 // });
 
 Route::get('/listbuku', [BukuController::class, 'index']);
+Route::get('/detailbuku', [BukuController::class, 'detailbuku']);
+Route::get('/login', [UserController::class, 'UserLogin']);
+Route::get('/registrasi', [UserController::class, 'UserRegis']);
 
 Route::get('/', [HomeController::class, 'home']);

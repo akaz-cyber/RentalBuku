@@ -14,7 +14,7 @@
   </head>
   <body>
  <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
             Rental Buku
@@ -26,14 +26,13 @@
             <div class="navbar-nav">
                 <a class="nav-link mx-lg-3 mx-md-3" href="/">Home</a>
                 <a class="nav-link mx-lg-3 mx-md-3" href="/listbuku">List buku</a>
-                <a class="nav-link mx-lg-3 mx-md-3" href="#">Cari buku</a>
                 <form class="d-flex">
-                    <input class="form-control me-lg-5 me-md-5 round-m" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-lg-5 me-md-5 round-m" type="search" placeholder="Cari Buku" aria-label="Search">
                 </form>
             </div>
             <div class="ms-auto">
 
-                <a class="btn  btn-lg btn-md btn-sm btn-purple rounded-3" href="#">Masuk</a>
+                <a class="btn  btn-lg btn-md btn-sm btn-purple rounded-3" href="/login">Masuk</a>
 
             </div>
         </div>
@@ -54,6 +53,7 @@
                 <ul class="list-unstyled  ">
                     <li><a href="#" class="text-white text-decoration-none">Home</a></li>
                     <li><a href="#" class="text-white text-decoration-none">List Buku</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Kontak Kami</a></li>
                     <li><a href="#" class="text-white text-decoration-none">Masuk</a></li>
                 </ul>
             </div>

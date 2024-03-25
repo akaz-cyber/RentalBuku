@@ -59,6 +59,21 @@
         color: white;
     }
 
+.btn-blueold{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #030C59;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-blueold:hover{
+    background-color: #323c97;
+}
 
 
 .btn-purple:hover{
@@ -72,7 +87,7 @@
 }
 
 .navbar {
-    transition: background-color 0.1s ease;
+    transition: background-color 0s ease;
 }
 
 .scrolled {
@@ -113,4 +128,10 @@
 .blueold{
     color: #004864;
     font-weight: bold;
+}
+.bg-pict{
+
+  background-image: url('/public/images/loginphoto.png');
+
+
 }

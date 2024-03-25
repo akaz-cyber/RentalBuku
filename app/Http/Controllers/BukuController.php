@@ -10,4 +10,8 @@ class BukuController extends Controller
     {
         return view('listbuku');
     }
+    public function detailbuku()
+    {
+        return view('detail');
+    }
 }
